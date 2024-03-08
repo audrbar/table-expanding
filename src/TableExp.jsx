@@ -126,7 +126,7 @@ export const TableExp = () => {
         getPaginationRowModel: getPaginationRowModel(),
         getFilteredRowModel: getFilteredRowModel(),
         getExpandedRowModel: getExpandedRowModel(),
-        debugTable: true,
+        filterFromLeafRows: true,
     });
 
     return (
